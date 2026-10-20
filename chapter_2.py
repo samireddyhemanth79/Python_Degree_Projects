@@ -4,3 +4,13 @@ name = input("What is your name? ")
 age = int(input("How old are you? "))
 print(f"Hello, {name}!")
 print(f"Next year, you will be {age + 1} years old.")
+
+# --- Problem 2: Canteen Bill Calculator ---
+item_name = input("What item did you buy? ")
+price = int(input("What is the price per item? "))
+quantity = int(input("How many did you buy? "))
+
+total_bill = price * quantity
+
+print(f"You ordered {quantity} {item_name}(s).")
+print(f"Your total bill to pay is: ₹{total_bill}")
