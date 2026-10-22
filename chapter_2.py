@@ -14,3 +14,11 @@ total_bill = price * quantity
 
 print(f"You ordered {quantity} {item_name}(s).")
 print(f"Your total bill to pay is: ₹{total_bill}")
+
+# === Problem 3: Daily Study & Rrecord Tracker ===
+record_hours = float(input("How many hours did you spend writing records today? "))
+college_hours = float(input("How many hours did you spend in college classes? "))
+
+total_hours = record_hours + college_hours
+
+print(f"Great job today! You dedicated {total_hours} hours to your academics.")
